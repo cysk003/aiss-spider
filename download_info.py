@@ -16,7 +16,7 @@ def download_info():
 
 def download_page(page):
     """ 下载某页面的信息 """
-    url = 'http://api.pmkoo.cn/aiss/suite/suiteList.do'
+    url = 'http://182.92.170.39/aiss/suite/suiteList.do'
     params = {
         'page': page,
         'userId': 153044
