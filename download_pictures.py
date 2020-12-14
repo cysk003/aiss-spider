@@ -26,7 +26,8 @@ def get_info_imgs(info):
         pictureCount = item["pictureCount"]
         for pic_idx in range(pictureCount):
             # url = "http://aiss.obs.cn-north-1.myhwclouds.com/picture/%s/%s/%s.jpg" % (catalog, issue, pic_idx)
-            url = "http://qj9l0utiw.hb-bkt.clouddn.com/picture/%s/%s/%s.jpg" % (catalog, issue, pic_idx)
+            # url = "http://qj9l0utiw.hb-bkt.clouddn.com/picture/%s/%s/%s.jpg" % (catalog, issue, pic_idx)
+            url = "http://cdn.auning.cn/picture/%s/%s/%s.jpg" % (catalog, issue, pic_idx)
             directory = os.path.join("data", name, "%s-%s" % (issue, nickname))
             filepath = os.path.join(directory, "%s.jpg" % pic_idx)
             # 每张图片一组，包含 图片url，所在目录，存储路径
